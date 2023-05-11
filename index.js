@@ -12,10 +12,8 @@ app.use(express.json())
 
 //why is this not cyclic?
 app.use(cors({
-    origin:[//"http://localhost:3000",
-    //"https://mern-task-app.onrender.com",
-    //"https://embarrassed-gray-bullfrog.cyclic.app",
-    "https://645babf6277e28008de671a4--bejewelled-tulumba-7f61b5.netlify.app/"]
+    origin:[
+    "*"]
 }))
 
 
